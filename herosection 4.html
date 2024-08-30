@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+<title>Hero section 4</title>
+</head>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+position: relative;
+overflow: hidden;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero{
+height: 100%;
+width: 100%;
+background: rgb(0, 152, 152);
+position: relative;
+} 
+#nav{
+height: 5%;
+width: 100%;
+display: flex;
+align-items: center;
+padding: 30px 60px;
+position: relative;
+z-index: 2;
+}
+#nav .bi-list{
+font-display: none;
+}
+#nav ul{
+list-style: none;
+display: flex;
+gap: 30px;
+}
+#nav ul li{
+font-size: 20px;
+font-weight: 500;
+color: aliceblue;
+text-transform: capitalize;
+cursor: pointer;
+transition: all 0.5s;
+}
+#nav ul li:hover{
+color: black;
+}
+#heromain{
+position: relative;
+height: 95%;
+width: 100%;
+}
+#section1{
+height: 50%;
+width: 100%;
+}
+#section1 h1{
+font-size: 650px;
+letter-spacing: 20px;
+line-height: 90%;
+margin-left: -60px;
+text-wrap: nowrap;
+color: rgb(236, 236, 236);
+font-family: 'Oswald', sans-serif;
+}
+#section2{
+height: 30%;
+width: 100%;
+padding: 0px 60px;
+display: flex;
+flex-direction: column;
+justify-content: end;
+gap: 10px;
+position: relative;
+z-index: 2;
+}
+#section2 h1{
+font-size: 30px;
+color: aliceblue;
+text-transform: capitalize;
+}
+#section2 p{
+font-size: 14px;
+width: 200px;
+color: aliceblue;
+}
+#section3 {
+height: 20%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;  
+padding: 0px 60px;
+gap: 30px;
+position: relative;
+z-index: 1;
+}
+#section3 button{
+height: 70px;
+width: 250px;
+font-size: 20px;
+border: none;
+text-transform: capitalize;
+background-color: black;
+color: aliceblue;
+cursor: pointer;
+transition: all 0.5s;
+}
+#section3 button:hover{
+background-color: white;
+color:black;
+}
+#set{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+#set .setitem{
+width: 100px;
+color: white;
+text-align: center;
+}
+#image{
+position: absolute;
+display: flex;
+align-items: end;
+bottom: 0px;
+left: 0px;
+height: 80%;
+width: 80%;
+}
+#image img{
+height: 85%;
+width: 85%;
+object-fit: cover;
+transform: translateX(30%);
+}
+@media screen and (min-width: 0px) and (max-width: 280px) {
+#image{
+display: none;
+}
+#nav{
+padding: 8px 15px;
+}  
+#nav ul{
+display: none;
+}
+#nav .bi-list{
+font-display: inline;
+font-size:18px ;
+font-weight: 600;
+filter: invert(100%);
+}
+#section1{
+display: none;
+}
+#section2 h1{
+font-size: 15px;
+color: aliceblue;
+}
+}
+</style>
+<body>
+<div id="hero">
+    <div id="nav">
+        <ul>
+            <li>About me</li>
+            <li>my style</li>
+            <li>contact</li>
+        </ul>
+        <i class="bi bi-list"></i>
+    </div>
+    <div id="heromain">
+        <div id="section1">
+            <h1>STYLIST</h1>
+        </div>
+        <div id="section2">
+            <h1>Alina suprun</h1>
+            <p>I will find your own
+            style and develop it to
+            its prime.</p>
+        </div>
+        <div id="section3">
+            <button>CONSULTATION <i class="bi bi-arrow-up-right"></i></button>
+            <div id="set">
+                <div class="setitem">
+                    <h1>8</h1>
+                    <p>years of experience</p>
+                </div>
+                <div class="setitem">
+                    <h1>120</h1>
+                    <p>years of experience</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="image">
+    <img src="photo-1483985988355-763728e1935b-removebg-preview (1).png" alt="">
+</div>
+</body>
+</html>
