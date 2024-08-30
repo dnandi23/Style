@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
-<title>Hero section 4</title>
-</head>
-<style>
 *{
 margin: 0;
 padding: 0;
@@ -170,44 +158,3 @@ font-size: 15px;
 color: aliceblue;
 }
 }
-</style>
-<body>
-<div id="hero">
-    <div id="nav">
-        <ul>
-            <li>About me</li>
-            <li>my style</li>
-            <li>contact</li>
-        </ul>
-        <i class="bi bi-list"></i>
-    </div>
-    <div id="heromain">
-        <div id="section1">
-            <h1>STYLIST</h1>
-        </div>
-        <div id="section2">
-            <h1>Alina suprun</h1>
-            <p>I will find your own
-            style and develop it to
-            its prime.</p>
-        </div>
-        <div id="section3">
-            <button>CONSULTATION <i class="bi bi-arrow-up-right"></i></button>
-            <div id="set">
-                <div class="setitem">
-                    <h1>8</h1>
-                    <p>years of experience</p>
-                </div>
-                <div class="setitem">
-                    <h1>120</h1>
-                    <p>years of experience</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="image">
-    <img src="photo-1483985988355-763728e1935b-removebg-preview (1).png" alt="">
-</div>
-</body>
-</html>
